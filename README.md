@@ -15,9 +15,9 @@ Ensures efficient data linking and retrieval.
 
 2 Set up environment variables
 
-   Create a .env file and add:
+   1) Create a .env file and add:
    
-   MONGO_URI=mongodb://localhost:27017/yourdb
+   2)  add your db url :  MONGO_URI=mongodb://localhost:27017/yourdb
    
    PORT=3000 
 
