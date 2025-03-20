@@ -1,3 +1,4 @@
+This microservice implements an identity reconciliation system that links multiple contacts based on shared attributes 
 --> Features
 
 /identify endpoint to merge related contacts.
