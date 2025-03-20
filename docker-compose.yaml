@@ -1,0 +1,12 @@
+
+services:
+  api:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGO_URI=${MONGO_URI}
+    restart: always
+    command: ["npm", "start"]  # Ensure the correct script runs
